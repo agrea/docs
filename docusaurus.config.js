@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 (module.exports = {
   title: 'Agrea API documentation',
   tagline: 'Documentation portal',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://docs.agrea.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
