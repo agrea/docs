@@ -1,0 +1,42 @@
+---
+sidebar_position: 2
+---
+
+# Authentication
+
+## Creating API keys
+
+TBW
+
+## Using your API keys
+
+### Fetching an authentication token
+
+In order to fetch a new authentication token, which you will use to sign all sub-sequent requests, you need to make a call to the `auth.agrea.io/token` endpoint:
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs
+  defaultValue="curl"
+  values={[
+    { label: 'Curl', value: 'curl', },
+    { label: 'Go', value: 'go', },
+  ]
+}>
+<TabItem value="curl">
+
+```shell
+curl "https://auth.agrea.io/token"
+```
+
+</TabItem>
+
+<TabItem value="go">
+
+```go
+curl "https://auth.agrea.io/token"
+```
+
+</TabItem>
+</Tabs>
