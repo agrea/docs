@@ -21,7 +21,6 @@ import TabItem from '@theme/TabItem';
   defaultValue="curl"
   values={[
     { label: 'Curl', value: 'curl', },
-    { label: 'Go', value: 'go', },
   ]
 }>
 <TabItem value="curl">
@@ -31,12 +30,15 @@ curl "https://auth.agrea.io/token"
 ```
 
 </TabItem>
-
-<TabItem value="go">
-
-```go
-curl "https://auth.agrea.io/token"
-```
-
-</TabItem>
 </Tabs>
+
+Response:
+
+```json
+{
+  "access_token":"NWEZZDC0YJYTZMQ5OS0ZNZBJLTKWNWUTNTFMOGI1ZTNHZMVI",
+  "expires_in":3600,
+  "scope":"all",
+  "token_type":"Bearer"
+}
+```
